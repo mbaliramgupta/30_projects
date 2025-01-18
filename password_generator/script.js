@@ -12,5 +12,6 @@ password.value=pass;
 function copypass(){
     password.select();
     document.execCommand("copy");
-    
+    password.value="";
+    pass=0;
 }
